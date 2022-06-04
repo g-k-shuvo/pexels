@@ -1,0 +1,38 @@
+header {
+  background-color: #fcc302;
+  .navbar {
+    .navbar-brand {
+      color: #fff;
+      font-size: 20px;
+      display: block;
+      text-transform: uppercase;
+      font-weight: 700;
+      &:active,
+      &:hover,
+      &:focus {
+        color: #fff;
+      }
+    }
+    .navbar-nav {
+      padding: 10px 0;
+      .nav-link {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 10px;
+        color: #fff;
+        letter-spacing: 0.2em;
+        &:last-child {
+          margin-right: 0;
+        }
+        &:hover {
+          color: #fff;
+        }
+        &.active {
+          color: #fff;
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+}
